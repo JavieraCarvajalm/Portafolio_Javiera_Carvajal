@@ -1190,3 +1190,35 @@ button:focus-visible {
         animation-iteration-count: 1 !important;
     }
 }
+
+/* ========================= */
+/* AJUSTES MÓVIL: MI ENFOQUE Y EXPERIENCIA */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    /* MI ENFOQUE */
+    .cardPresentacion {
+        padding: 24px 20px;
+    }
+
+    .contenidoEnfoque h2 {
+        font-size: clamp(30px, 7vw, 36px);
+        line-height: 1.15;
+        overflow-wrap: break-word;
+    }
+
+    /* EXPERIENCIA */
+    .cardExperiencia {
+        height: auto;
+        min-width: 0;
+        padding: 32px 24px;
+    }
+
+    .cardExperiencia h2 {
+        font-size: clamp(24px, 6vw, 28px);
+        line-height: 1.2;
+        overflow-wrap: break-word;
+    }
+
+}
